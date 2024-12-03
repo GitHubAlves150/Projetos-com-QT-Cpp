@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0ea780aee49d2d2046f1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Slot_Signal",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Slot_Signal::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Slot_Signal-Debug-5cf5aa3a9e3674e52553.json",
+					"name" : "Slot_Signal",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Slot_Signal_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Slot_Signal_autogen-Debug-6052dd488f8648e14a25.json",
+					"name" : "Slot_Signal_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Slot_Signal_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Slot_Signal_autogen_timestamp_deps-Debug-986ef088d22e76c6f0c3.json",
+					"name" : "Slot_Signal_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

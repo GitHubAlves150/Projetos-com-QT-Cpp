@@ -1,0 +1,30 @@
+# ninja log v6
+12	1177	7548864646764105	Slot_Signal_autogen/timestamp	639bf8fe35d03405
+12	1177	7548864646764105	Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+12	1177	7548864646764105	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/timestamp	639bf8fe35d03405
+12	1177	7548864646764105	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+1185	5853	7548864648179249	CMakeFiles/Slot_Signal.dir/Slot_Signal_autogen/mocs_compilation.cpp.obj	9935edae43376787
+1192	5894	7548864648246050	CMakeFiles/Slot_Signal.dir/main.cpp.obj	5a796514539517f3
+1199	6126	7548864648306053	CMakeFiles/Slot_Signal.dir/mainwindow.cpp.obj	d5561a5431e4cab
+6127	6610	7548864697584710	Slot_Signal.exe	f8cb6a865cdf4ea2
+21	308	7548865604738147	Slot_Signal_autogen/timestamp	639bf8fe35d03405
+21	308	7548865604738147	Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+21	308	7548865604738147	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/timestamp	639bf8fe35d03405
+21	308	7548865604738147	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+310	3685	7548865607625046	CMakeFiles/Slot_Signal.dir/mainwindow.cpp.obj	d5561a5431e4cab
+3686	3964	7548865641385583	Slot_Signal.exe	f8cb6a865cdf4ea2
+40	1060	7548867841627048	Slot_Signal_autogen/timestamp	639bf8fe35d03405
+40	1060	7548867841627048	Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+40	1060	7548867841627048	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/timestamp	639bf8fe35d03405
+40	1060	7548867841627048	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+1062	4777	7548867842936415	CMakeFiles/Slot_Signal.dir/Slot_Signal_autogen/mocs_compilation.cpp.obj	9935edae43376787
+1068	4945	7548867843006376	CMakeFiles/Slot_Signal.dir/main.cpp.obj	5a796514539517f3
+1074	5040	7548867843066340	CMakeFiles/Slot_Signal.dir/mainwindow.cpp.obj	d5561a5431e4cab
+41	1017	7548868003353112	Slot_Signal_autogen/timestamp	639bf8fe35d03405
+41	1017	7548868003353112	Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+41	1017	7548868003353112	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/timestamp	639bf8fe35d03405
+41	1017	7548868003353112	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Slot_Signal_autogen/mocs_compilation.cpp	639bf8fe35d03405
+1018	4650	7548868004571593	CMakeFiles/Slot_Signal.dir/Slot_Signal_autogen/mocs_compilation.cpp.obj	9935edae43376787
+1025	4781	7548868004636518	CMakeFiles/Slot_Signal.dir/main.cpp.obj	5a796514539517f3
+1031	4911	7548868004696469	CMakeFiles/Slot_Signal.dir/mainwindow.cpp.obj	d5561a5431e4cab
+4911	5232	7548868043497578	Slot_Signal.exe	f8cb6a865cdf4ea2

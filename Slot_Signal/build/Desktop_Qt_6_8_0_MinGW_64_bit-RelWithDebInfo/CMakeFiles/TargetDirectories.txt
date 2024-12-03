@@ -1,0 +1,9 @@
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/Slot_Signal.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/edit_cache.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/rebuild_cache.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/list_install_components.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/install.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/install/local.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/install/strip.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/Slot_Signal_autogen_timestamp_deps.dir
+C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-RelWithDebInfo/CMakeFiles/Slot_Signal_autogen.dir

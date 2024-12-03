@@ -1,0 +1,105 @@
+# ninja log v6
+12	1078	7548944909883772	Layout_autogen/timestamp	894c09fc5b5ad752
+12	1078	7548944909883772	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+12	1078	7548944909883772	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+12	1078	7548944909883772	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+1086	4783	7548944911142710	CMakeFiles/Layout.dir/Layout_autogen/mocs_compilation.cpp.obj	2681411ac214d71f
+1091	4867	7548944911182710	CMakeFiles/Layout.dir/main.cpp.obj	a0394758d1e3e4f8
+1095	5042	7548944911232679	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+5042	5325	7548944950702951	Layout.exe	6aefc30253a8e1c7
+22	291	7548947679399264	Layout_autogen/timestamp	894c09fc5b5ad752
+22	291	7548947679399264	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+22	291	7548947679399264	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+22	291	7548947679399264	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+292	4016	7548947682109618	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4017	4299	7548947719354480	Layout.exe	6aefc30253a8e1c7
+21	250	7548965348284085	Layout_autogen/timestamp	894c09fc5b5ad752
+21	250	7548965348284085	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+21	250	7548965348284085	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+21	250	7548965348284085	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+251	3541	7548965350580566	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3541	3803	7548965383492240	Layout.exe	6aefc30253a8e1c7
+40	264	7548965568176071	Layout_autogen/timestamp	894c09fc5b5ad752
+40	264	7548965568176071	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+40	264	7548965568176071	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+40	264	7548965568176071	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+265	3486	7548965570423802	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3487	3745	7548965602645694	Layout.exe	6aefc30253a8e1c7
+42	266	7548966048236828	Layout_autogen/timestamp	894c09fc5b5ad752
+42	266	7548966048236828	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+42	266	7548966048236828	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+42	266	7548966048236828	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+267	3545	7548966050491254	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3545	3805	7548966083270076	Layout.exe	6aefc30253a8e1c7
+46	284	7548968940120102	Layout_autogen/timestamp	894c09fc5b5ad752
+46	284	7548968940120102	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+46	284	7548968940120102	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+46	284	7548968940120102	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+285	3921	7548968942552548	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3921	4184	7548968978909499	Layout.exe	6aefc30253a8e1c7
+45	284	7548970067522480	Layout_autogen/timestamp	894c09fc5b5ad752
+45	284	7548970067522480	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+45	284	7548970067522480	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+45	284	7548970067522480	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+285	4215	7548970069922705	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4215	4496	7548970109229380	Layout.exe	6aefc30253a8e1c7
+46	295	7548970327669765	Layout_autogen/timestamp	894c09fc5b5ad752
+46	295	7548970327669765	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+46	295	7548970327669765	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+46	295	7548970327669765	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+296	4164	7548970330171443	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4165	4446	7548970368865007	Layout.exe	6aefc30253a8e1c7
+43	274	7548975587179957	Layout_autogen/timestamp	894c09fc5b5ad752
+43	274	7548975587179957	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+43	274	7548975587179957	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+43	274	7548975587179957	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+275	3843	7548975589504995	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3843	4109	7548975625189649	Layout.exe	6aefc30253a8e1c7
+45	301	7548976036366138	Layout_autogen/timestamp	894c09fc5b5ad752
+45	301	7548976036366138	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+45	301	7548976036366138	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+45	301	7548976036366138	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+302	4278	7548976038931587	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4278	4559	7548976078697170	Layout.exe	6aefc30253a8e1c7
+43	268	7548976320481314	Layout_autogen/timestamp	894c09fc5b5ad752
+43	268	7548976320481314	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+43	268	7548976320481314	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+43	268	7548976320481314	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+269	3853	7548976322742398	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3854	4115	7548976358585242	Layout.exe	6aefc30253a8e1c7
+41	263	7548976564564886	Layout_autogen/timestamp	894c09fc5b5ad752
+41	263	7548976564564886	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+41	263	7548976564564886	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+41	263	7548976564564886	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+264	3828	7548976566799518	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3828	4084	7548976602441495	Layout.exe	6aefc30253a8e1c7
+41	271	7548977096974353	Layout_autogen/timestamp	894c09fc5b5ad752
+41	271	7548977096974353	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+41	271	7548977096974353	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+41	271	7548977096974353	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+273	3835	7548977099280894	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3836	4099	7548977134905858	Layout.exe	6aefc30253a8e1c7
+43	302	7548978237755151	Layout_autogen/timestamp	894c09fc5b5ad752
+43	302	7548978237755151	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+43	302	7548978237755151	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+43	302	7548978237755151	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+303	4312	7548978240363408	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4312	4609	7548978280449891	Layout.exe	6aefc30253a8e1c7
+42	300	7549291322735120	Layout_autogen/timestamp	894c09fc5b5ad752
+42	300	7549291322735120	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+42	300	7549291322735120	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+42	300	7549291322735120	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+303	4462	7549291325333217	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4462	4798	7549291366935182	Layout.exe	6aefc30253a8e1c7
+40	265	7549291544594764	Layout_autogen/timestamp	894c09fc5b5ad752
+40	265	7549291544594764	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+40	265	7549291544594764	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+40	265	7549291544594764	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+266	3941	7549291546850025	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+3941	4209	7549291583605077	Layout.exe	6aefc30253a8e1c7
+22	267	7549292179226524	Layout_autogen/timestamp	894c09fc5b5ad752
+22	267	7549292179226524	Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+22	267	7549292179226524	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/timestamp	894c09fc5b5ad752
+22	267	7549292179226524	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Layout/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/Layout_autogen/mocs_compilation.cpp	894c09fc5b5ad752
+268	4260	7549292181693499	CMakeFiles/Layout.dir/mainwindow.cpp.obj	6ac8d74210c514ca
+4260	4549	7549292221616917	Layout.exe	6aefc30253a8e1c7

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>Designer.jpeg</file>
+        <file>eng.png</file>
+    </qresource>
+</RCC>

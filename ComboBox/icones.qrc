@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icones/3D_software_24132.ico</file>
+        <file>icones/bnb_crypto_icon_264371.ico</file>
+        <file>icones/Folder_Download_24065.ico</file>
+        <file>icones/Folder_movies_24199.png</file>
+        <file>icones/iChat_top_delire_24185.ico</file>
+        <file>icones/iPrograms_24106.ico</file>
+        <file>icones/rar_24165.ico</file>
+    </qresource>
+</RCC>

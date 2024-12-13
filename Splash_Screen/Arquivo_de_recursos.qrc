@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/splash">
+        <file>Arquivo de recursos/sadsa.png</file>
+        <file>Arquivo de recursos/engre.png</file>
+        <file>Arquivo de recursos/engrenagem.png</file>
+        <file>Arquivo de recursos/placamae(1).png</file>
+    </qresource>
+</RCC>

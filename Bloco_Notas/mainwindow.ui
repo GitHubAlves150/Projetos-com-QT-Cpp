@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>576</width>
+    <height>382</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>541</width>
+      <height>291</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>576</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <addaction name="actionNovo"/>
+    <addaction name="actionAbrir"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalvar"/>
+    <addaction name="actionSalvar_como"/>
+    <addaction name="separator"/>
+    <addaction name="actionFechar"/>
+    <addaction name="actionImprimir"/>
+   </widget>
+   <widget class="QMenu" name="menuCriar">
+    <property name="title">
+     <string>Editar</string>
+    </property>
+    <addaction name="actionColar"/>
+    <addaction name="actionRecortar"/>
+    <addaction name="actionRefazer"/>
+    <addaction name="actionDesfazer"/>
+    <addaction name="actionCopiar"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFormatar">
+    <property name="title">
+     <string>Formatar</string>
+    </property>
+    <addaction name="actionCor"/>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuCriar"/>
+   <addaction name="menuAbout"/>
+   <addaction name="menuFormatar"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>RightToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QToolBar" name="toolBar_2">
+   <property name="windowTitle">
+    <string>toolBar_2</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNovo"/>
+   <addaction name="actionAbrir"/>
+   <addaction name="actionSalvar_como"/>
+   <addaction name="actionSalvar"/>
+   <addaction name="separator"/>
+   <addaction name="actionColar"/>
+   <addaction name="actionRecortar"/>
+   <addaction name="actionRefazer"/>
+   <addaction name="separator"/>
+   <addaction name="actionFechar"/>
+   <addaction name="separator"/>
+  </widget>
+  <action name="actionNovo">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Novo/File_New_add_10247.ico</normaloff>:/icones/Icones/Novo/File_New_add_10247.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Novo</string>
+   </property>
+  </action>
+  <action name="actionAbrir">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Abrir/open_256_icon-icons.com_76002.ico</normaloff>:/icones/Icones/Abrir/open_256_icon-icons.com_76002.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Abrir</string>
+   </property>
+  </action>
+  <action name="actionSalvar">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Spherical Icons por Ahmad Hania/save_14706.ico</normaloff>:/icones/Icones/Spherical Icons por Ahmad Hania/save_14706.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </action>
+  <action name="actionSalvar_como">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Spherical Icons por Ahmad Hania/save_as_14759.ico</normaloff>:/icones/Icones/Spherical Icons por Ahmad Hania/save_as_14759.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Salvar como</string>
+   </property>
+  </action>
+  <action name="actionFechar">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Spherical Icons por Ahmad Hania/close_14776.ico</normaloff>:/icones/Icones/Spherical Icons por Ahmad Hania/close_14776.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Fechar</string>
+   </property>
+  </action>
+  <action name="actionColar">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Colar/copy_paste_document_file_1557.ico</normaloff>:/icones/Icones/Colar/copy_paste_document_file_1557.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Colar</string>
+   </property>
+  </action>
+  <action name="actionRecortar">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Cortar/edit_cut_scissors_10259.ico</normaloff>:/icones/Icones/Cortar/edit_cut_scissors_10259.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Recortar</string>
+   </property>
+  </action>
+  <action name="actionRefazer">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Desfazer/undo_14749.ico</normaloff>:/icones/Icones/Desfazer/undo_14749.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Refazer</string>
+   </property>
+  </action>
+  <action name="actionDesfazer">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Desfazer/undo_14749.ico</normaloff>:/icones/Icones/Desfazer/undo_14749.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Desfazer</string>
+   </property>
+  </action>
+  <action name="actionCopiar">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Copiar/copy_paste_document_theuser_1579.ico</normaloff>:/icones/Icones/Copiar/copy_paste_document_theuser_1579.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Copiar</string>
+   </property>
+  </action>
+  <action name="actionCor">
+   <property name="text">
+    <string>Cor</string>
+   </property>
+  </action>
+  <action name="actionImprimir">
+   <property name="icon">
+    <iconset resource="ArquivoRecursos.qrc">
+     <normaloff>:/icones/Icones/Impressora/Print_icon-icons.com_73705.ico</normaloff>:/icones/Icones/Impressora/Print_icon-icons.com_73705.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Imprimir</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="ArquivoRecursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

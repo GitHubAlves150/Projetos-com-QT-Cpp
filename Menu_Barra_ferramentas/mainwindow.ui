@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArquivo">
+    <property name="title">
+     <string>Arquivo</string>
+    </property>
+    <widget class="QMenu" name="menuNovo">
+     <property name="title">
+      <string>Novo</string>
+     </property>
+     <addaction name="actionNew_project"/>
+     <addaction name="actionNew_Lib"/>
+    </widget>
+    <addaction name="menuNovo"/>
+    <addaction name="actionEditar"/>
+    <addaction name="actionSalva"/>
+    <addaction name="actionExcluir"/>
+    <addaction name="separator"/>
+    <addaction name="actionSair"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+    <addaction name="actionObject"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout_program">
+    <property name="title">
+     <string>About program</string>
+    </property>
+   </widget>
+   <addaction name="menuArquivo"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuAbout_program"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="sizeGripEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionSalva"/>
+   <addaction name="actionEditar"/>
+   <addaction name="actionExcluir"/>
+  </widget>
+  <action name="actionSalva">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/Folder_movies_24199.png</normaloff>:/icones/icones/Folder_movies_24199.png</iconset>
+   </property>
+   <property name="text">
+    <string>Salva</string>
+   </property>
+  </action>
+  <action name="actionEditar">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/rar_24165.ico</normaloff>:/icones/icones/rar_24165.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Editar</string>
+   </property>
+  </action>
+  <action name="actionExcluir">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/bnb_crypto_icon_264371.ico</normaloff>:/icones/icones/bnb_crypto_icon_264371.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Excluir</string>
+   </property>
+  </action>
+  <action name="actionSair">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/iChat_top_delire_24185.ico</normaloff>:/icones/icones/iChat_top_delire_24185.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Sair</string>
+   </property>
+  </action>
+  <action name="actionNew_project">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/Folder_movies_24199.png</normaloff>:/icones/icones/Folder_movies_24199.png</iconset>
+   </property>
+   <property name="text">
+    <string>New project</string>
+   </property>
+  </action>
+  <action name="actionNew_Lib">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/bnb_crypto_icon_264371.ico</normaloff>:/icones/icones/bnb_crypto_icon_264371.ico</iconset>
+   </property>
+   <property name="text">
+    <string>New Lib</string>
+   </property>
+  </action>
+  <action name="actionObject">
+   <property name="icon">
+    <iconset resource="Arquivo_Recursos.qrc">
+     <normaloff>:/icones/icones/iPrograms_24106.ico</normaloff>:/icones/icones/iPrograms_24106.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Object</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="Arquivo_Recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

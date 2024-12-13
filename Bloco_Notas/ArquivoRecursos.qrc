@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>Icones/Abrir/open_256_icon-icons.com_76002.ico</file>
+        <file>Icones/Arquivo/folder_gray_9787.ico</file>
+        <file>Icones/Colar/copy_paste_document_file_1557.ico</file>
+        <file>Icones/Copiar/copy_paste_document_theuser_1579.ico</file>
+        <file>Icones/Cortar/edit_cut_scissors_10259.ico</file>
+        <file>Icones/Desfazer/undo_14749.ico</file>
+        <file>Icones/Editar/editnote_edi_9512.ico</file>
+        <file>Icones/Fechar/Windows_Close_Program_22531.ico</file>
+        <file>Icones/Home/3D_software_24132.ico</file>
+        <file>Icones/Novo/File_New_add_10247.ico</file>
+        <file>Icones/Sobre/information_info_17882.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/airplane_14718.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/close_14776.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/email_14733.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/file_new_14810.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/home_14773.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/paper_clip_14744.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/save_14706.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/save_as_14759.ico</file>
+        <file>Icones/Spherical Icons por Ahmad Hania/web_14726.ico</file>
+        <file>Icones/Impressora/folder_orange_printer_10950.ico</file>
+        <file>Icones/Impressora/Print_icon-icons.com_73705.ico</file>
+        <file>Icones/Impressora/Print_icon-icons.com_74701.ico</file>
+        <file>Icones/Impressora/printer_print_icon-icons.com_66284.ico</file>
+        <file>Icones/Impressora/printer-orange256_24944.ico</file>
+    </qresource>
+</RCC>

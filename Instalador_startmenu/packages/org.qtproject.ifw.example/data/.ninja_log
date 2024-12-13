@@ -1,9 +1,0 @@
-# ninja log v6
-18	2426	7548892663635680	Slot_Signal_autogen/timestamp	22c1d39e5364526e
-18	2426	7548892663635680	Slot_Signal_autogen/mocs_compilation.cpp	22c1d39e5364526e
-18	2426	7548892663635680	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/Slot_Signal_autogen/timestamp	22c1d39e5364526e
-18	2426	7548892663635680	C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/Slot_Signal/build/Desktop_Qt_6_8_0_MinGW_64_bit-Release/Slot_Signal_autogen/mocs_compilation.cpp	22c1d39e5364526e
-2450	8879	7548892666319565	CMakeFiles/Slot_Signal.dir/main.cpp.obj	fadf906450afeefb
-2439	8895	7548892666209629	CMakeFiles/Slot_Signal.dir/Slot_Signal_autogen/mocs_compilation.cpp.obj	bd6772b8c4cf219f
-2458	9059	7548892666399558	CMakeFiles/Slot_Signal.dir/mainwindow.cpp.obj	494e23a92c7d271a
-9059	9390	7548892732401605	Slot_Signal.exe	5b45a510b7c41ffd

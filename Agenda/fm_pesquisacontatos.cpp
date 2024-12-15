@@ -1,8 +1,6 @@
 #include "fm_pesquisacontatos.h"
 #include "ui_fm_pesquisacontatos.h"
-#include "fm_pesquisacontatos.h"
-#include <QtSql>
-#include <QMessageBox>
+
 
 
 Fm_pesquisaContatos::Fm_pesquisaContatos(QWidget *parent)
@@ -61,6 +59,7 @@ void Fm_pesquisaContatos::on_btn_deleteContact_clicked()
     QSqlQuery query;
     query.prepare("delete from funcionarios where id="+QString::number(id));
 
+    //DELETAR A LINHA
     if( query.exec() )
     {
         QMessageBox::information(this, "TTTT", "REGISTRO EXCLUIDO");
@@ -70,48 +69,15 @@ void Fm_pesquisaContatos::on_btn_deleteContact_clicked()
     else
     {
         QMessageBox::information(this, "OPS!", "ERRO AO EXLUIR REGISTRO");
-
-
     }
-
-    //DELETAR A LINHA
 }
 
+void Fm_pesquisaContatos::on_btn_Edit_clicked()
+{
+    int linha=ui->tw_contatos->currentRow();
+    int id= ui->tw_contatos->item(linha, 0)->text().toInt();
+    fm_EditarContato f_editarcontato(this, id);
+    f_editarcontato.exec();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 

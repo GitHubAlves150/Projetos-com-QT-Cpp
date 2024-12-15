@@ -3,10 +3,20 @@
 
 #include <QMainWindow>
 #include "fm_principal.h"
+#include "fm_pesquisacontatos.h"
+#include "cadastrar_no_banco.h"
+#include <QSqlQuery>
+#include "fm_editarcontato.h"
 #include <QtSql>
 #include <QFileInfo>
 #include <QDebug>
 #include <QMessageBox>
+
+
+
+
+
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -21,11 +31,12 @@ class Janela : public QMainWindow
 public:
     Janela(QWidget *parent = nullptr);
     ~Janela();
+    void on_pushButton_clicked();
 
 private slots:
-    void on_login_clicked();
 
-    void on_pushButton_clicked();
+
+    void on_login_clicked();
 
 private:
     Ui::Janela *ui;

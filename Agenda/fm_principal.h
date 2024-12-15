@@ -2,6 +2,7 @@
 #define FM_PRINCIPAL_H
 
 #include <QDialog>
+#include "janela.h"
 
 namespace Ui {
 class fm_principal;
@@ -17,6 +18,8 @@ public:
 
 private slots:
     void on_btn_SearchContact_clicked();
+
+    void on_btn_AddContact_clicked();
 
 private:
     Ui::fm_principal *ui;

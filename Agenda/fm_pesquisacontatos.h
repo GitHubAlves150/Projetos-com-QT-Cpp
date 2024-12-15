@@ -2,6 +2,8 @@
 #define FM_PESQUISACONTATOS_H
 
 #include <QDialog>
+#include "janela.h"
+
 
 namespace Ui {
 class Fm_pesquisaContatos;
@@ -17,6 +19,8 @@ public:
 
 private slots:
     void on_btn_deleteContact_clicked();
+
+    void on_btn_Edit_clicked();
 
 private:
     Ui::Fm_pesquisaContatos *ui;

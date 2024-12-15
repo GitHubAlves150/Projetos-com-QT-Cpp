@@ -1,0 +1,12 @@
+release/cadastrar_no_banco.o
+release/fm_editarcontato.o
+release/fm_pesquisacontatos.o
+release/fm_principal.o
+release/main.o
+release/janela.o
+release/qrc_IMG.o
+release/moc_cadastrar_no_banco.o
+release/moc_fm_editarcontato.o
+release/moc_fm_pesquisacontatos.o
+release/moc_fm_principal.o
+release/moc_janela.o

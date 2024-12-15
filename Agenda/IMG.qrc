@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/IMG"/>
+    <qresource prefix="/Imagem"/>
+    <qresource prefix="/">
+        <file>Acessoredim.png</file>
+        <file>ApagadoRedim.png</file>
+    </qresource>
+</RCC>

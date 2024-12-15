@@ -1,0 +1,12 @@
+debug/cadastrar_no_banco.o
+debug/fm_editarcontato.o
+debug/fm_pesquisacontatos.o
+debug/fm_principal.o
+debug/main.o
+debug/janela.o
+debug/qrc_IMG.o
+debug/moc_cadastrar_no_banco.o
+debug/moc_fm_editarcontato.o
+debug/moc_fm_pesquisacontatos.o
+debug/moc_fm_principal.o
+debug/moc_janela.o

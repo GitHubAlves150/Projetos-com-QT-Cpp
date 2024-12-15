@@ -19,7 +19,7 @@ Cadastrar_no_banco::~Cadastrar_no_banco()
 
 void Cadastrar_no_banco::on_inserir_clicked()
 {
-    QMessageBox::warning(this, "Falha", "cli..");
+
     ui->banc_conectado_->setText(" conectado");
 
     if(ui->senha_->text()=="" || ui->username_->text()=="")

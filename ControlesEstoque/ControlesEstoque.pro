@@ -10,17 +10,20 @@ CONFIG += c++17
 
 SOURCES += \
     fm_login_user.cpp \
+    fm_nova_venda.cpp \
     main.cpp \
     fm_main.cpp
 
 HEADERS += \
     Conexao.h \
     fm_login_user.h \
-    fm_main.h
+    fm_main.h \
+    fm_nova_venda.h
 
 FORMS += \
     fm_login_user.ui \
-    fm_main.ui
+    fm_main.ui \
+    fm_nova_venda.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

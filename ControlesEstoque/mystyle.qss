@@ -1,0 +1,12 @@
+<!DOCTYPE RCC>
+<RCC version="1.0"/>
+QPushButton {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor da fonte branca */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px; /* Espaçamento interno */
+}
+
+QPushButton:hover {
+    background-color: #3e8e41; /* Cor de fundo ao passar o mouse */
+}

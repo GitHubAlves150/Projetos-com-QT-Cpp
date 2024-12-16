@@ -1,0 +1,15 @@
+QPushButton#myButton {
+background-color: #2a34cd; /* Azul */ 
+color: white;
+border: none;
+border-radius: 12px
+}
+
+QPushButton#myButton:hover {
+ background-color: #936902;
+  color: white;
+}
+
+QPushButton#myButton:pressed {
+    background-color: #755302; /* Cor ao pressionar */
+}

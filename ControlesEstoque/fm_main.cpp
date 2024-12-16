@@ -68,3 +68,44 @@ void FM_Main::on_btn_nova_venda_clicked()
     }
 }
 
+
+void FM_Main::on_actionEstoque_triggered()
+{
+    if(acesso_colab == 'M')
+    {
+        fm_gestaoEstoque f_gestaoEstoque;
+        f_gestaoEstoque.exec();
+    }
+    else
+    {
+        QMessageBox::information(this, "INFo", "Apenas para Masters");
+    }
+}
+
+void FM_Main::on_actionVendas_triggered()
+{
+    if(acesso_colab == 'M')
+    {
+        fm_Gestaovendas f_gestaoVendas;
+        f_gestaoVendas.exec();
+    }
+    else
+    {
+        QMessageBox::information(this, "INFo", "Apenas para Masters");
+    }
+}
+
+
+void FM_Main::on_actionColaboradores_triggered()
+{
+    if(acesso_colab == 'M')
+    {
+        fm_gestaoColaboradores f_gestaoColab;
+        f_gestaoColab.exec();
+    }
+    else
+    {
+        QMessageBox::information(this, "INFo", "Apenas para Masters");
+    }
+}
+

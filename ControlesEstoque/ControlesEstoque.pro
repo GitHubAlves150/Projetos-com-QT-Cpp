@@ -9,6 +9,9 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    fm_gestaocolaboradores.cpp \
+    fm_gestaoestoque.cpp \
+    fm_gestaovendas.cpp \
     fm_login_user.cpp \
     fm_nova_venda.cpp \
     main.cpp \
@@ -16,11 +19,17 @@ SOURCES += \
 
 HEADERS += \
     Conexao.h \
+    fm_gestaocolaboradores.h \
+    fm_gestaoestoque.h \
+    fm_gestaovendas.h \
     fm_login_user.h \
     fm_main.h \
     fm_nova_venda.h
 
 FORMS += \
+    fm_gestaocolaboradores.ui \
+    fm_gestaoestoque.ui \
+    fm_gestaovendas.ui \
     fm_login_user.ui \
     fm_main.ui \
     fm_nova_venda.ui

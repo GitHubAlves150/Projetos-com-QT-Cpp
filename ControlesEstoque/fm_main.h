@@ -11,6 +11,9 @@
 #include "fm_login_user.h"
 #include "Conexao.h"
 #include "fm_nova_venda.h"
+#include "fm_gestaocolaboradores.h"
+#include "fm_gestaoestoque.h"
+#include "fm_gestaovendas.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -41,6 +44,12 @@ private slots:
     void on_btn_blockANDunblock_clicked();
 
     void on_btn_nova_venda_clicked();
+
+    void on_actionEstoque_triggered();
+
+    void on_actionVendas_triggered();
+
+    void on_actionColaboradores_triggered();
 
 private:
     Ui::FM_Main *ui;

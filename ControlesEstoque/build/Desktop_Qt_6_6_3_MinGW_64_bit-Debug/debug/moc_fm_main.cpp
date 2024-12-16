@@ -42,15 +42,21 @@ constexpr auto qt_meta_stringdata_CLASSFM_MainENDCLASS = QtMocHelpers::stringDat
     "FM_Main",
     "on_btn_blockANDunblock_clicked",
     "",
-    "on_btn_nova_venda_clicked"
+    "on_btn_nova_venda_clicked",
+    "on_actionEstoque_triggered",
+    "on_actionVendas_triggered",
+    "on_actionColaboradores_triggered"
 );
 #else  // !QT_MOC_HAS_STRING_DATA
 struct qt_meta_stringdata_CLASSFM_MainENDCLASS_t {
-    uint offsetsAndSizes[8];
+    uint offsetsAndSizes[14];
     char stringdata0[8];
     char stringdata1[31];
     char stringdata2[1];
     char stringdata3[26];
+    char stringdata4[27];
+    char stringdata5[26];
+    char stringdata6[33];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_CLASSFM_MainENDCLASS_t::offsetsAndSizes) + ofs), len 
@@ -59,12 +65,18 @@ Q_CONSTINIT static const qt_meta_stringdata_CLASSFM_MainENDCLASS_t qt_meta_strin
         QT_MOC_LITERAL(0, 7),  // "FM_Main"
         QT_MOC_LITERAL(8, 30),  // "on_btn_blockANDunblock_clicked"
         QT_MOC_LITERAL(39, 0),  // ""
-        QT_MOC_LITERAL(40, 25)   // "on_btn_nova_venda_clicked"
+        QT_MOC_LITERAL(40, 25),  // "on_btn_nova_venda_clicked"
+        QT_MOC_LITERAL(66, 26),  // "on_actionEstoque_triggered"
+        QT_MOC_LITERAL(93, 25),  // "on_actionVendas_triggered"
+        QT_MOC_LITERAL(119, 32)   // "on_actionColaboradores_triggered"
     },
     "FM_Main",
     "on_btn_blockANDunblock_clicked",
     "",
-    "on_btn_nova_venda_clicked"
+    "on_btn_nova_venda_clicked",
+    "on_actionEstoque_triggered",
+    "on_actionVendas_triggered",
+    "on_actionColaboradores_triggered"
 };
 #undef QT_MOC_LITERAL
 #endif // !QT_MOC_HAS_STRING_DATA
@@ -76,7 +88,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFM_MainENDCLASS[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       2,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -84,10 +96,16 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSFM_MainENDCLASS[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       1,    0,   44,    2, 0x08,    1 /* Private */,
+       3,    0,   45,    2, 0x08,    2 /* Private */,
+       4,    0,   46,    2, 0x08,    3 /* Private */,
+       5,    0,   47,    2, 0x08,    4 /* Private */,
+       6,    0,   48,    2, 0x08,    5 /* Private */,
 
  // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
@@ -106,6 +124,12 @@ Q_CONSTINIT const QMetaObject FM_Main::staticMetaObject = { {
         // method 'on_btn_blockANDunblock_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_btn_nova_venda_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_actionEstoque_triggered'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_actionVendas_triggered'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_actionColaboradores_triggered'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -119,6 +143,9 @@ void FM_Main::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         switch (_id) {
         case 0: _t->on_btn_blockANDunblock_clicked(); break;
         case 1: _t->on_btn_nova_venda_clicked(); break;
+        case 2: _t->on_actionEstoque_triggered(); break;
+        case 3: _t->on_actionVendas_triggered(); break;
+        case 4: _t->on_actionColaboradores_triggered(); break;
         default: ;
         }
     }
@@ -144,13 +171,13 @@ int FM_Main::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 5)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 5;
     }
     return _id;
 }

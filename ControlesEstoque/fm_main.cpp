@@ -5,10 +5,13 @@ FM_Main::FM_Main(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::FM_Main)
 {
+
     ui->setupUi(this);
+    //setWindowFlags(Qt::FramelessWindowHint);
+
     logado=false;
-    padlock_off.addFile(":/imagens/IMG/CadeadoCinza.png");
-    padlock_on->addFile(":/imagens/IMG/CadeadoZul.png");
+    padlock_off.addFile(":/img_/IMG/locked.png");
+    padlock_on->addFile(":/img_/IMG/unlocked.png");
 
     ui->btn_blockANDunblock->setIcon(padlock_off);
     ui->statusbar->addWidget(ui->btn_blockANDunblock);

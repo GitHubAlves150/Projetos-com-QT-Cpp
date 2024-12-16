@@ -22,8 +22,10 @@ class FM_Main : public QMainWindow
 {
     Q_OBJECT
 
+
 public:
     FM_Main(QWidget *parent = nullptr);
+
 
     QIcon padlock_off;
     QIcon *padlock_on= new QIcon();

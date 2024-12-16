@@ -32,4 +32,9 @@ DISTFILES += \
     style.qss
 
 RESOURCES += \
-    Arquivos_de_recursos.qrc
+    Arquivos_de_recursos.qrc \
+    Arquivos_de_recursos.qrc \
+    Arquivos_de_recursos.qrc \
+    Arquivos_de_recursos.qrc \
+    RecursosFile.qrc \
+    RecursosFile.qrc

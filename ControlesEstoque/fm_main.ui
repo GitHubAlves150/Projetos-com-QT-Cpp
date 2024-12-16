@@ -51,7 +51,11 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="myButton">
+<<<<<<< Updated upstream
+   <widget class="QPushButton" name="btn_nova_venda">
+=======
+   <widget class="QPushButton" name="btn_nova_Venda">
+>>>>>>> Stashed changes
     <property name="enabled">
      <bool>true</bool>
     </property>

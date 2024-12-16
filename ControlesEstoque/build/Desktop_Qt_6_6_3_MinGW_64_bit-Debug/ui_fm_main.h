@@ -32,7 +32,7 @@ public:
     QAction *actionSobre;
     QWidget *centralwidget;
     QPushButton *btn_blockANDunblock;
-    QPushButton *myButton;
+    QPushButton *btn_nova_Venda;
     QLabel *txt_userlogado;
     QMenuBar *menubar;
     QMenu *menuGestao;
@@ -65,12 +65,12 @@ public:
         btn_blockANDunblock->setStyleSheet(QString::fromUtf8(""));
         btn_blockANDunblock->setIconSize(QSize(16, 16));
         btn_blockANDunblock->setFlat(true);
-        myButton = new QPushButton(centralwidget);
-        myButton->setObjectName("myButton");
-        myButton->setEnabled(true);
-        myButton->setGeometry(QRect(10, 20, 91, 31));
-        myButton->setAutoFillBackground(false);
-        myButton->setStyleSheet(QString::fromUtf8("QPushButton#myButton {\n"
+        btn_nova_Venda = new QPushButton(centralwidget);
+        btn_nova_Venda->setObjectName("btn_nova_Venda");
+        btn_nova_Venda->setEnabled(true);
+        btn_nova_Venda->setGeometry(QRect(10, 20, 91, 31));
+        btn_nova_Venda->setAutoFillBackground(false);
+        btn_nova_Venda->setStyleSheet(QString::fromUtf8("QPushButton#myButton {\n"
 "background-color: #2a34cd; /* Azul */ \n"
 "color: white;\n"
 "border: none;\n"
@@ -124,7 +124,7 @@ public:
         actionSair->setText(QCoreApplication::translate("FM_Main", "Sair", nullptr));
         actionSobre->setText(QCoreApplication::translate("FM_Main", "Sobre", nullptr));
         btn_blockANDunblock->setText(QString());
-        myButton->setText(QCoreApplication::translate("FM_Main", "Nova Venda", nullptr));
+        btn_nova_Venda->setText(QCoreApplication::translate("FM_Main", "Nova Venda", nullptr));
         txt_userlogado->setText(QCoreApplication::translate("FM_Main", "Nome Logado", nullptr));
         menuGestao->setTitle(QCoreApplication::translate("FM_Main", "Gestao", nullptr));
         menuSistema->setTitle(QCoreApplication::translate("FM_Main", "Sistema", nullptr));

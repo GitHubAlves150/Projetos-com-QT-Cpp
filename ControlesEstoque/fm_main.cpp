@@ -47,6 +47,8 @@ void FM_Main::on_btn_blockANDunblock_clicked()
     {
         logado=false;
         ui->btn_blockANDunblock->setIcon(padlock_off);
+        ui->txt_userlogado->setText("last user:"+nome_colab);
+
     }
 }
 

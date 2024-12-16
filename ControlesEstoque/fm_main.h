@@ -10,6 +10,7 @@
 #include <QMessageBox>
 #include "fm_login_user.h"
 #include "Conexao.h"
+#include "fm_nova_venda.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -39,6 +40,10 @@ public:
 private slots:
 
     void on_btn_blockANDunblock_clicked();
+
+    void on_myButton_clicked();
+
+    void on_btn_nova_Venda_clicked();
 
 private:
     Ui::FM_Main *ui;

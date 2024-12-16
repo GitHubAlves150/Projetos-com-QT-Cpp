@@ -52,5 +52,46 @@ void FM_Main::on_btn_blockANDunblock_clicked()
     }
 }
 
+void FM_Main::on_btn_nova_Venda_clicked()
+{
+
+    if(logado)
+    {
+        fm_nova_venda f_newSale;
+        f_newSale.exec();
+    }
+    else
+    {
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

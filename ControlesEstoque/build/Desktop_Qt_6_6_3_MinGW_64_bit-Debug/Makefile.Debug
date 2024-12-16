@@ -496,6 +496,7 @@ debug/moc_fm_login_user.cpp: ../../fm_login_user.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
 		../../fm_login_user.h \
 		../../Conexao.h \
+		../../fm_nova_venda.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.6.3/mingw_64/bin/moc.exe
 	C:\Qt\6.6.3\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/ControlesEstoque/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -I"C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/ControlesEstoque" -IC:/Qt/6.6.3/mingw_64/include -IC:/Qt/6.6.3/mingw_64/include/QtWidgets -IC:/Qt/6.6.3/mingw_64/include/QtGui -IC:/Qt/6.6.3/mingw_64/include/QtSql -IC:/Qt/6.6.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\fm_login_user.h -o debug\moc_fm_login_user.cpp
@@ -859,6 +860,7 @@ debug/moc_fm_main.cpp: ../../fm_main.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QDialog \
 		../../fm_main.h \
 		../../Conexao.h \
+		../../fm_nova_venda.h \
 		debug/moc_predefs.h \
 		C:/Qt/6.6.3/mingw_64/bin/moc.exe
 	C:\Qt\6.6.3\mingw_64\bin\moc.exe $(DEFINES) --include "C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/ControlesEstoque/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/debug/moc_predefs.h" -IC:/Qt/6.6.3/mingw_64/mkspecs/win32-g++ -I"C:/Users/Lucas Alves/Documents/GitHub_Conta_Gmail/Projetos com QT Cpp/ControlesEstoque" -IC:/Qt/6.6.3/mingw_64/include -IC:/Qt/6.6.3/mingw_64/include/QtWidgets -IC:/Qt/6.6.3/mingw_64/include/QtGui -IC:/Qt/6.6.3/mingw_64/include/QtSql -IC:/Qt/6.6.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include ..\..\fm_main.h -o debug\moc_fm_main.cpp
@@ -1420,6 +1422,7 @@ debug/fm_login_user.o: ../../fm_login_user.cpp ../../fm_login_user.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qmessagebox.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
 		../../Conexao.h \
+		../../fm_nova_venda.h \
 		ui_fm_login_user.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qapplication.h \
@@ -1966,6 +1969,7 @@ debug/main.o: ../../main.cpp ../../fm_main.h \
 		../../fm_login_user.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QDialog \
 		../../Conexao.h \
+		../../fm_nova_venda.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QApplication \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/qapplication.h \
 		C:/Qt/6.6.3/mingw_64/include/QtGui/qguiapplication.h \
@@ -2331,6 +2335,7 @@ debug/fm_main.o: ../../fm_main.cpp ../../fm_main.h \
 		../../fm_login_user.h \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QDialog \
 		../../Conexao.h \
+		../../fm_nova_venda.h \
 		ui_fm_main.h \
 		C:/Qt/6.6.3/mingw_64/include/QtGui/QAction \
 		C:/Qt/6.6.3/mingw_64/include/QtWidgets/QApplication \

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
+<<<<<<< Updated upstream
  <class>fm_nova_Venda</class>
  <widget class="QDialog" name="fm_nova_Venda">
+=======
+ <class>fm_nova_venda</class>
+ <widget class="QDialog" name="fm_nova_venda">
+>>>>>>> Stashed changes
   <property name="geometry">
    <rect>
     <x>0</x>

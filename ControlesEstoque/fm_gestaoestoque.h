@@ -2,6 +2,7 @@
 #define FM_GESTAOESTOQUE_H
 
 #include <QDialog>
+#include "fm_main.h"
 
 namespace Ui {
 class fm_gestaoEstoque;
@@ -13,6 +14,7 @@ class fm_gestaoEstoque : public QDialog
 
 public:
     explicit fm_gestaoEstoque(QWidget *parent = nullptr);
+    ConexaoDB con;
     ~fm_gestaoEstoque();
 
 private slots:

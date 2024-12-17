@@ -1,0 +1,14 @@
+release/fm_gestaocolaboradores.o
+release/fm_gestaoestoque.o
+release/fm_gestaovendas.o
+release/fm_login_user.o
+release/fm_nova_venda.o
+release/main.o
+release/fm_main.o
+release/qrc_RecursosFile.o
+release/moc_fm_gestaocolaboradores.o
+release/moc_fm_gestaoestoque.o
+release/moc_fm_gestaovendas.o
+release/moc_fm_login_user.o
+release/moc_fm_main.o
+release/moc_fm_nova_venda.o

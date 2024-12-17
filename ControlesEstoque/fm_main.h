@@ -15,6 +15,7 @@
 #include "fm_gestaoestoque.h"
 #include "fm_gestaovendas.h"
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class FM_Main;
@@ -43,7 +44,7 @@ private slots:
 
     void on_btn_blockANDunblock_clicked();
 
-    void on_btn_nova_venda_clicked();
+    void on_btn_nova_venda_clicked();    
 
     void on_actionEstoque_triggered();
 

@@ -15,6 +15,9 @@ public:
     explicit fm_gestaoEstoque(QWidget *parent = nullptr);
     ~fm_gestaoEstoque();
 
+private slots:
+    void on_btn_Novo_clicked();
+
 private:
     Ui::fm_gestaoEstoque *ui;
 };

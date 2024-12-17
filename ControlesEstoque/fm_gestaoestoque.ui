@@ -19,7 +19,7 @@
      <x>10</x>
      <y>10</y>
      <width>661</width>
-     <height>191</height>
+     <height>200</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -74,22 +74,22 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <widget class="QLineEdit" name="lineEdit_6"/>
+         <widget class="QLineEdit" name="txt_codproduto"/>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_5"/>
+         <widget class="QLineEdit" name="txt_decricaoproduto"/>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit"/>
+         <widget class="QLineEdit" name="txt_qtdEstoque"/>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_2"/>
+         <widget class="QLineEdit" name="txt_Fornecedor"/>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_3"/>
+         <widget class="QLineEdit" name="txt_ValorCompra"/>
         </item>
         <item>
-         <widget class="QLineEdit" name="lineEdit_4"/>
+         <widget class="QLineEdit" name="txt_Valorvenda"/>
         </item>
        </layout>
       </item>
@@ -98,9 +98,9 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QPushButton" name="pushButton">
+       <widget class="QPushButton" name="btn_Novo">
         <property name="text">
-         <string>PushButton</string>
+         <string>NOVO</string>
         </property>
        </widget>
       </item>

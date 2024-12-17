@@ -18,6 +18,8 @@ public:
 private slots:
     void on_btn_Novo_clicked();
 
+    void on_btn_gravar_clicked();
+
 private:
     Ui::fm_gestaoEstoque *ui;
 };

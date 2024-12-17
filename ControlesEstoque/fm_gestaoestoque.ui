@@ -105,9 +105,9 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="btn_gravar">
         <property name="text">
-         <string>PushButton</string>
+         <string>GRAVAR</string>
         </property>
        </widget>
       </item>

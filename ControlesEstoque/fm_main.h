@@ -51,6 +51,7 @@ private slots:
 
     void on_actionColaboradores_triggered();
 
+
 private:
     Ui::FM_Main *ui;
 };

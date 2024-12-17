@@ -6,9 +6,17 @@ class ConexaoDB{
     QSqlDatabase bancoDados;
 
 public:
+    //conecao com o db
+    QString local;
+    QString banco;
+    //garante o caminho do banco de dados
     ConexaoDB()
     {
         bancoDados= QSqlDatabase::addDatabase("QSQLITE");
+        //conecao com o db
+         local=qApp->applicationDirPath();
+         banco=local+"/DB/controleEstoque.db";
+        //garante o caminho do banco de dados
     }
 
     void Close_db()
@@ -17,10 +25,7 @@ public:
     }
     bool open_db()
     {
-        //conecao com o db
-        QString local=qApp->applicationDirPath();
-        QString banco=local+"/DB/controleEstoque.db";
-        //garante o caminho do banco de dados
+
         bancoDados.setDatabaseName(banco);
         if(!bancoDados.open())
         {
@@ -31,6 +36,17 @@ public:
         {
             return true;
         }
+    }
+bool aberto()
+    {
+    if(bancoDados.isOpen())
+    {
+        return false;
+    }
+    else
+    {
+        return true;
+    }
     }
 private:
 };

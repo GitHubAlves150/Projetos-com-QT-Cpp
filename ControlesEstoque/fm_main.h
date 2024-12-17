@@ -11,7 +11,9 @@
 #include "fm_login_user.h"
 #include "Conexao.h"
 #include "fm_nova_venda.h"
-
+#include "fm_gestaocolaboradores.h"
+#include "fm_gestaoestoque.h"
+#include "fm_gestaovendas.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -30,20 +32,24 @@ public:
 
     QIcon padlock_off;
     QIcon *padlock_on= new QIcon();
-    bool logado;
-
-    QString nome_colab,
-            acesso_colab;
-
+    static bool logado;
+    static QString nome_colab,
+                   acesso_colab,
+                   username_colab;
+    static int id_colab;
     ~FM_Main();
 
 private slots:
 
     void on_btn_blockANDunblock_clicked();
 
-    void on_myButton_clicked();
+    void on_btn_nova_venda_clicked();
 
-    void on_btn_nova_Venda_clicked();
+    void on_actionEstoque_triggered();
+
+    void on_actionVendas_triggered();
+
+    void on_actionColaboradores_triggered();
 
 private:
     Ui::FM_Main *ui;

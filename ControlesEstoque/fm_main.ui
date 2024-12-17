@@ -51,11 +51,7 @@
      <bool>true</bool>
     </property>
    </widget>
-<<<<<<< Updated upstream
    <widget class="QPushButton" name="btn_nova_venda">
-=======
-   <widget class="QPushButton" name="btn_nova_Venda">
->>>>>>> Stashed changes
     <property name="enabled">
      <bool>true</bool>
     </property>
@@ -71,19 +67,19 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">QPushButton#myButton {
+     <string notr="true">QPushButton#btn_nova_venda {
 background-color: #2a34cd; /* Azul */ 
 color: white;
 border: none;
 border-radius: 12px
 }
 
-QPushButton#myButton:hover {
+QPushButton#btn_nova_venda:hover {
  background-color: #936902;
   color: white;
 }
 
-QPushButton#myButton:pressed {
+QPushButton#btn_nova_venda:pressed {
     background-color: #755302; /* Cor ao pressionar */
 }
 </string>

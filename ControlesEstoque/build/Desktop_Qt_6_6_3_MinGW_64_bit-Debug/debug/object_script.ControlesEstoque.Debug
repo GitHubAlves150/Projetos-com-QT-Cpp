@@ -1,0 +1,14 @@
+debug/fm_gestaocolaboradores.o
+debug/fm_gestaoestoque.o
+debug/fm_gestaovendas.o
+debug/fm_login_user.o
+debug/fm_nova_venda.o
+debug/main.o
+debug/fm_main.o
+debug/qrc_RecursosFile.o
+debug/moc_fm_gestaocolaboradores.o
+debug/moc_fm_gestaoestoque.o
+debug/moc_fm_gestaovendas.o
+debug/moc_fm_login_user.o
+debug/moc_fm_main.o
+debug/moc_fm_nova_venda.o

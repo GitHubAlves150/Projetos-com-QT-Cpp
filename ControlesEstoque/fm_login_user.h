@@ -19,9 +19,7 @@ public:
     bool logado;
     ConexaoDB conec;
     QString nome, acesso;
-    QString getNome();
-    QString getAcesso();
-    bool getLogado();
+    int id;
 
 private slots:
     void on_btn_logar_clicked();

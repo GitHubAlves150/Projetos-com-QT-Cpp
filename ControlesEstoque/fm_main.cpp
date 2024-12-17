@@ -1,6 +1,16 @@
 #include "fm_main.h"
 #include "ui_fm_main.h"
 
+
+
+
+int FM_Main::id_colab;
+QString FM_Main::nome_colab;
+QString FM_Main::acesso_colab;
+QString FM_Main::username_colab;
+bool FM_Main::logado;
+
+
 FM_Main::FM_Main(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::FM_Main)
@@ -34,9 +44,7 @@ void FM_Main::on_btn_blockANDunblock_clicked()
         //chamar tela de desbloqueado
         fm_Login_user f_login;
         f_login.exec();
-        logado=f_login.getLogado();
-        nome_colab= f_login.getNome();
-        acesso_colab= f_login.getAcesso();
+
         if(logado)
         {
             ui->btn_blockANDunblock->setIcon(*padlock_on);

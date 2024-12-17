@@ -32,11 +32,11 @@ public:
 
     QIcon padlock_off;
     QIcon *padlock_on= new QIcon();
-    bool logado;
-
-    QString nome_colab,
-            acesso_colab;
-
+    static bool logado;
+    static QString nome_colab,
+                   acesso_colab,
+                   username_colab;
+    static int id_colab;
     ~FM_Main();
 
 private slots:

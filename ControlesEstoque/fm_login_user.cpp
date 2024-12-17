@@ -38,9 +38,10 @@ void fm_Login_user::on_btn_logar_clicked()
             query.first();//pegar o primeiro da lista da tabela
             if(query.value(1).toString() != "")//se nome n for vazio
             {
-                logado=true;
-                nome=query.value(1).toString();
-                acesso= query.value(5).toString();
+                FM_Main::logado=true;
+                FM_Main::nome_colab=query.value(1).toString();
+                FM_Main::id_colab= query.value(0).toInt();
+                FM_Main::acesso_colab= query.value(5).toString();
                 conec.Close_db();
                 close();
             }
@@ -68,21 +69,6 @@ void fm_Login_user::on_btn_sair_clicked()
     close();
 }
 
-
-bool fm_Login_user::getLogado()
-{
-    return logado;
-}
-
-QString fm_Login_user::getNome()
-{
-    return nome;
-}
-
-QString fm_Login_user::getAcesso()
-{
-    return acesso;
-}
 
 
 

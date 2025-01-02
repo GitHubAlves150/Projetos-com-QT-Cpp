@@ -43,7 +43,8 @@ public:
     {
         if (FM_Main->objectName().isEmpty())
             FM_Main->setObjectName("FM_Main");
-        FM_Main->resize(713, 420);
+        FM_Main->resize(738, 420);
+        FM_Main->setWindowTitle(QString::fromUtf8("Lucas"));
         FM_Main->setStyleSheet(QString::fromUtf8(""));
         FM_Main->setIconSize(QSize(40, 40));
         actionEstoque = new QAction(FM_Main);
@@ -92,7 +93,7 @@ public:
         FM_Main->setCentralWidget(centralwidget);
         menubar = new QMenuBar(FM_Main);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 713, 22));
+        menubar->setGeometry(QRect(0, 0, 738, 22));
         menuGestao = new QMenu(menubar);
         menuGestao->setObjectName("menuGestao");
         menuSistema = new QMenu(menubar);
@@ -117,7 +118,6 @@ public:
 
     void retranslateUi(QMainWindow *FM_Main)
     {
-        FM_Main->setWindowTitle(QCoreApplication::translate("FM_Main", "FM_Main", nullptr));
         actionEstoque->setText(QCoreApplication::translate("FM_Main", "Estoque", nullptr));
         actionColaboradores->setText(QCoreApplication::translate("FM_Main", "Colaboradores", nullptr));
         actionVendas->setText(QCoreApplication::translate("FM_Main", "Vendas", nullptr));
@@ -128,6 +128,7 @@ public:
         txt_userlogado->setText(QCoreApplication::translate("FM_Main", "Nome Logado", nullptr));
         menuGestao->setTitle(QCoreApplication::translate("FM_Main", "Gestao", nullptr));
         menuSistema->setTitle(QCoreApplication::translate("FM_Main", "Sistema", nullptr));
+        (void)FM_Main;
     } // retranslateUi
 
 };

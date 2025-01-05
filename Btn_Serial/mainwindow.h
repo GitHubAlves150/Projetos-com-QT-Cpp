@@ -7,6 +7,8 @@
 #include <QPushButton>
 #include <QMessageBox>
 #include <QByteArray>
+#include <QGroupBox>
+#include <QVBoxLayout>
 
 
 QT_BEGIN_NAMESPACE
@@ -21,16 +23,25 @@ class MainWindow : public QMainWindow
 
 public:
     MainWindow(QWidget *parent = nullptr);
+    void SetSerialPort();
+    void SetGroupBoxEixo_A();
+    void SetButtons();
     ~MainWindow();
 
 private slots:
-    void sendForwardCommand();//Slot para lidar com o clik d botao
-    void sendReverseCommand();
-private:
-    Ui::MainWindow *ui;
-    QPushButton *UP_Button;//Ponteiro para um botão
-    QPushButton *DOW_Button;//Ponteiro para um botão
+    void sendForwardCommandEixoA_Dir();//Slot para lidar com o clik d botao
+    void sendForwardCommandEixoA_Esq();
 
+private:
+    Ui::MainWindow *ui;  
     QSerialPort *seriaPort;
+    QGroupBox *my_GroupBox;
+    QPushButton *my_botton1;
+    QPushButton *my_botton2;
+    QVBoxLayout *vBox;
+
 };
 #endif // MAINWINDOW_H
+
+
+

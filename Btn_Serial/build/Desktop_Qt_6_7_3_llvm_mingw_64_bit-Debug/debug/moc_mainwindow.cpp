@@ -36,9 +36,9 @@ namespace {
 struct qt_meta_stringdata_CLASSMainWindowENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSMainWindowENDCLASS = QtMocHelpers::stringData(
     "MainWindow",
-    "sendForwardCommand",
+    "sendForwardCommandEixoA_Dir",
     "",
-    "sendReverseCommand"
+    "sendForwardCommandEixoA_Esq"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -78,9 +78,9 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSMainWindowENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<MainWindow, std::true_type>,
-        // method 'sendForwardCommand'
+        // method 'sendForwardCommandEixoA_Dir'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        // method 'sendReverseCommand'
+        // method 'sendForwardCommandEixoA_Esq'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -92,8 +92,8 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<MainWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->sendForwardCommand(); break;
-        case 1: _t->sendReverseCommand(); break;
+        case 0: _t->sendForwardCommandEixoA_Dir(); break;
+        case 1: _t->sendForwardCommandEixoA_Esq(); break;
         default: ;
         }
     }

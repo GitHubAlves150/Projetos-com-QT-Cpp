@@ -8,20 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     this->setWindowTitle("Canabidiol");
-    //Cria as paginas
-    QWidget *page1=CreatPage1();
-    QWidget *page2=CreatPage2();
-
-    //Adiciona as páginas ao QStackedwidget
-    _stackedwidget->addWidget(page1);
-    _stackedwidget->addWidget(page2);
-
-    //Define o QStackedwidget como widgetcentral
-    setCentralWidget(_stackedwidget);
-
-    //configura as janelas principais
-    setWindowTitle("Exemplo de QStackedWidget");
-    resize(400, 300);
+    setUI();
 }
 
 //Metodo para criar a pagina 1
@@ -69,7 +56,50 @@ void MainWindow::showPage2()
 }
 
 
+void MainWindow::setUI()
+{
+    //cria a pagina principal
+    QWidget *centralWidget= new QWidget(this);
 
+    //cria o layout principal(horizontal)
+    QHBoxLayout *mainLayout = new QHBoxLayout(centralWidget);
+
+    //cria o layout para botoes(vertical)
+    QVBoxLayout *buttonLayout = new QVBoxLayout();
+
+    //botoes
+    QPushButton *btnPage1= new QPushButton("Pagina 1", centralWidget);
+    QPushButton *btnPage2= new QPushButton("Pagina 2", centralWidget);
+
+    //adiciona os botoes ao layout vertical
+    buttonLayout->addWidget(btnPage1);
+    buttonLayout->addWidget(btnPage2);
+    buttonLayout->addStretch();//adiciona espaço flexivel no final
+
+    //cria paginas
+    QWidget *Page1 = CreatPage1();
+    QWidget *Page2 = CreatPage2();
+
+    //Adiciona as páginas ao QSTackedwidget
+    _stackedwidget->addWidget(Page1);
+    _stackedwidget->addWidget(Page2);
+
+    //adiciona os layout ao layout principal(horizontal)
+    mainLayout->addLayout(buttonLayout);//botoes a esquerda
+    mainLayout->addWidget(_stackedwidget, 1);//QStackeda diretia (espancivel)
+
+    //cnecta os botoes
+    connect(btnPage1, &QPushButton::clicked, this, &MainWindow::showPage1);
+    connect(btnPage2, &QPushButton::clicked, this, &MainWindow::showPage2);
+
+    //Define o layout central da janela principal
+    setCentralWidget(centralWidget);
+
+    //configuração da janela
+    resize(800, 600);
+    setWindowTitle("janela Dividida");
+
+}
 
 MainWindow::~MainWindow()
 {

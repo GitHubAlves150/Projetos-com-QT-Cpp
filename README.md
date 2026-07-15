@@ -28,3 +28,7 @@ O ambiente traz integrados analisadores de performance robustos, como o **Valgri
 ## 🏭 Quem Utiliza o Qt no Mercado Real?
 
 Dominar esta ferramenta abre portas para indústrias tecnológicas de ponta. Empresas gigantescas como a **Adobe** (no Photoshop e Illustrator), **VLC Media Player**, **Autodesk** (no Maya 3D), a agência espacial **NASA** e grandes indústrias de automação e eletrónica utilizam o Qt Creator como a base para os seus softwares comerciais devido à sua estabilidade e alto desempenho.
+
+
+## Com usar este repositório?
+Instale o QT creator na sua máquina e clone este repositório..
